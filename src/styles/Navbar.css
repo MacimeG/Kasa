@@ -17,9 +17,18 @@
     text-decoration: underline;
     color: #FF6060;
 }
+.link_accueil:focus{
+    margin-right: 25px;
+    text-decoration: underline;
+    color: #FF6060;
+}
 .link_propos{
     color: #FF6060;
     text-decoration: none;
+}
+.link_propos:focus{
+    color: #FF6060;
+    text-decoration: underline;
 }
 
 @media screen and (max-width: 420px) {
