@@ -18,11 +18,12 @@
 }
 .text_onImg{
     position: absolute;
-    top: 200px;
+    top: 188px;
 }
 .text_onImg h1{
     color: white;
     font-weight: 500;
+    font-size: 44px;
 }
 
 @media screen and (max-width: 420px) {
