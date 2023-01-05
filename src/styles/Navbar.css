@@ -14,7 +14,7 @@
 }
 .link_accueil{
     margin-right: 25px;
-    text-decoration: underline;
+    text-decoration: none;
     color: #FF6060;
 }
 .link_accueil:focus{
