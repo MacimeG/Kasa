@@ -22,6 +22,7 @@
 }
 .text_onImg h1{
     color: white;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 420px) {

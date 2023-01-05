@@ -21,12 +21,14 @@
     color: white;
     border: 0px solid transparent;
     border-radius: 10px;
-    width: 60px;
+    width: auto;
     height: 15px;
     text-align: center;
     padding: 5px;
     background-color: #FF6060;
     margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .ficheLogement_info{
     margin-top: 30px;
