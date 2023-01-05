@@ -1,0 +1,22 @@
+.eror_title{
+    color: #FF6060;
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.eror_msg{
+    color: #FF6060;
+    font-size: 25px;
+    text-align: center;
+}
+.erorLink{
+    color: #FF6060;
+}
+.eror_link{
+    color: #FF6060;
+    text-align: center;
+    margin-top: 100px;
+}

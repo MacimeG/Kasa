@@ -1,0 +1,23 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+/* Pour permettre au footer de rester en bas de la page même quand il y a peu de contenu*/
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 420px) {
+    body{
+      margin-right: 0;
+      margin-left: 0;
+    }
+}

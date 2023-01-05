@@ -1,0 +1,36 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 100%;
+}
+.navbar_logo{
+    margin-left: 100px;
+}
+.navbar_link{
+    display: flex;
+    align-items: center;
+    margin-right: 100px;
+}
+.link_accueil{
+    margin-right: 25px;
+    text-decoration: underline;
+    color: #FF6060;
+}
+.link_propos{
+    color: #FF6060;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 420px) {
+    .navbar{
+        justify-content: space-between;
+    }
+    .navbar_logo{
+        margin-left: 10px;
+        width: 145px;
+    }
+    .navbar_link{
+        margin-right: 15px;
+    }
+}
