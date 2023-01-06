@@ -75,6 +75,9 @@
     padding-bottom: 20px;
     border-radius: 5px;
 }
+.collapse_description_logement p {
+    margin-top: 10px;
+}
 .icon_collapse_logement{
     margin-left: 60%;
 }

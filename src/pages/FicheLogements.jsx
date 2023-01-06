@@ -46,7 +46,10 @@ export default function FicheLogement(){
                 <div className="collapse_ficheLogement">
 
                 <Collapse className="collapse_title_logement" title={'Description'} icon="icon_collapse_logement">
-                        <span className="collapse_description_logement">{currentLogement.description}</span>   
+                <div className="collapse_description_logement">
+                        <p >{currentLogement.description}</p>   
+
+                    </div>  
                 </Collapse>
 
                 <Collapse className="collapse_title_logement" title={'Équipements'}icon="icon_collapse_logement" >

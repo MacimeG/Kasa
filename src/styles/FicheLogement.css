@@ -50,6 +50,7 @@
 }
 ul{
     margin: 0;
+    margin-top: 10px;
 }
 li{
     list-style: none;
