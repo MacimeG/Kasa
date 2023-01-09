@@ -11,8 +11,6 @@ export default function Card(props){
                 <img className="imgCard" src={props.cover} alt={props.title}></img>
                 <p className='card_title'>{props.title}</p>
             </div>
-            {/* <div className="card_title"> */}
-            {/* </div> */}
             </Link>
         </div>
     )

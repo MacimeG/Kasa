@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-// import Footer from "../components/Footer";
+
 import "../styles/Error.css"
 
 export default function Error404(){
@@ -12,7 +12,6 @@ export default function Error404(){
             <Link className="erorLink" to="/">
                 <p className="eror_link">Retourner sur la page d'accueil</p>
             </Link>
-            {/* <Footer/> */}
         </div>
     )
 }
