@@ -12,7 +12,7 @@ function Homepage(){
         <div>
             <Navbar/>
             <div className="banner-container">
-            <Banner img={imgHome} description ={"chez vous, partout et ailleurs"} alt="island"/>
+            <Banner className="banner" img={imgHome} description ={"chez vous, partout et ailleurs"} alt="island"/>
             </div>
           
             <div className="container_card">

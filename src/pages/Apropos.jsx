@@ -15,7 +15,7 @@ export default function Apropos(){
         <div className="aPropos_container">
             <Navbar/>
             <div className="banner-container">
-            <Banner img={bannerApropos} alt="moutain"/>
+            <Banner className="bannerPropos" img={bannerApropos} alt="moutain"/>
             </div>
             <div className="allCollapse">
                 {Propos.map((element)=> (

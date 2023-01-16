@@ -33,7 +33,10 @@ export default function Caroussel(props){
                     // ici j'ai mis en place une condition, si l'index et = a la photo actuelle alors la class ce transform en slide-active, sinon en slide, si l'index et = a la photo actuelle, alors il faut m'afficher la photo actuelle.
                     <div className={index === current ? 'slide-active': 'slide'} key={index}>
                         {index === current && (
-                            <img className="img-caroussel" src={slide} alt=""/>
+                            <div>
+                                <img className="img-caroussel" src={slide} alt=""/>
+                                <p className="nombrePic"> {index + 1 + "/" + props.slides.length}</p>
+                            </div>
                         )}
                      
                     </div>

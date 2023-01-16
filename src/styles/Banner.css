@@ -16,6 +16,15 @@
     border-radius: 25px;
     width: max-content;
 }
+.bannerPropos{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    background: #000000;
+    mix-blend-mode: darken;
+    border-radius: 25px;
+    width: max-content;
+}
 .text_onImg{
     position: absolute;
     top: 188px;
@@ -27,12 +36,22 @@
 }
 
 @media screen and (max-width: 420px) {
+    .banner{
+        border-radius: 10px;
+        height: 111px;
+    }
+    .bannerPropos{
+        border-radius: 10px;
+        height: 223px;
+    }
     .imgBanner{
-        width: 340px;
-        height: 155px;
+        width: 364px;
+        /* height: 111px; */
+        border-radius: 10px;
+        object-fit: cover;
     }
     .text_onImg{
-        top: 138px;
+        top: 125px;
     }
     .text_onImg h1{
         width: 275px;

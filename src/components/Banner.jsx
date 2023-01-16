@@ -2,7 +2,7 @@ import "../styles/Banner.css"
 
 export default function Banner(props){
     return(
-        <div className="banner">
+        <div className={props.className}>
             <img className="imgBanner" src={props.img} alt={props.alt}></img>
             {props.description && (
                 <div className="text_onImg">

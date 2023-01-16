@@ -6,15 +6,18 @@
     color: #FF6060;
     font-weight: 500;
     font-size: 28px;
+    margin-left: 63px;
 }
 .ficheLogement_location{
     color: #FF6060;
     font-size: 18px;
+    margin-left: 63px;
 }
 .ficheLogement_tags{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 63px;
 }
 .tag{
     font-size: 14px;
@@ -64,9 +67,11 @@ li{
 @media screen and (max-width: 420px) {
     .ficheLogement_title{
         font-size: 18px;
+        margin-left: 0;
     }   
     .ficheLogement_location{
         font-size: 14px;
+        margin-left: 0;
     }
     .host_info{
         top: 68%;
@@ -77,6 +82,7 @@ li{
     }
     .ficheLogement_tags{
         margin-bottom: 70px;
+        margin-left: 0;
     }
     .ficheLogement_info{
         margin-left: 15px;

@@ -4,8 +4,12 @@
 }
 .right-arrow{
     position: absolute;
-    right: 50px;
+    right: 105px;
     top: 240px;
+}
+.caroussel{
+    margin-left: 63px;
+    margin-right: 63px;
 }
 .img-caroussel{
     width: 100%;
@@ -15,6 +19,12 @@
 }
 .slide-active{
     margin-top: 20px;
+}
+.nombrePic{
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    color: white;
 }
 @media screen and (max-width: 420px) {
     .slide-active{
@@ -28,5 +38,13 @@
     .right-arrow{
         width: 55px;
         right: 10px;
+    }   
+    .nombrePic{
+        top: 46%;
+        left: 47%;
+    }
+    .caroussel{
+        margin-left: 0;
+        margin-right: 0;
     }   
 }
